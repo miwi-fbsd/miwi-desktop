@@ -16,12 +16,13 @@ RUN_DEPENDS+=	xorg>0:x11/xorg \
 		openssh-askpass>0:security/openssh-askpass \
 		porttools>0:ports-mgmt/porttools \
 		psearch>0:ports-mgmt/psearch \
-		zsh>0:shell/zsh \
+		zsh>0:shells/zsh \
 		git>0:devel/git \
 		firfox>0:www/firefox \
 		neomutt>0:mail/neomutt \
 		chrome>0:www/chromium \
-		bugzilla-cli>0:ports-mgmt/freebsd-bugzilla-cli
+		bugzilla-cli>0:ports-mgmt/freebsd-bugzilla-cli \
+		mc>0:misc/mc
 
 USES=		metaport
 NO_ARCH=	yes
