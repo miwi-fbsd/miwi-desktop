@@ -1,7 +1,7 @@
 # Created by: Martin Wilke <miwi@FreeBSD.org>
 # $FreeBSD$
 
-PORTNAME=	miwidesktop
+PORTNAME=	miwidesktopmini
 PORTVERSION=	0.3
 CATEGORIES=	base misc
 
@@ -25,7 +25,13 @@ RUN_DEPENDS+=	xorg>0:x11/xorg \
 		subversion>0:devel/subversion \
 		rsync:net/rsync \
 		arandr:x11/arandr \
-		python:lang/python 
+		python:lang/python \
+		openvpn:security/openvpn \
+		synergyc:sysutils/synergy \
+		xorg>0:x11-drivers/xf86-video-intel \
+		xorg>0:graphics/drm-next-kmod\
+		slim:x11/slim
+		
 
 USES=		metaport
 NO_ARCH=	yes
